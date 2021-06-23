@@ -1,0 +1,19 @@
+Allergy,Id_Num,Type_Of_Dose
+Rash,1,1
+Inability to wake or stay awake,2,2
+Pale Skin,3,2
+Blue Skin,4,2
+Persistent Pain or pressure in Chest,5,2
+Inability to wake or stay awake,6,2
+Swelling,7,2
+Wheezing,8,2
+Pain,9,2
+Chills,10,1
+Nausea,11,1
+Rash,12,1
+Inability to wake or stay awake,13,1
+Pale Skin,14,1
+Blue Skin,15,1
+Persistent Pain or pressure in Chest,16,2
+Inability to wake or stay awake,17,2
+Rash,18,2

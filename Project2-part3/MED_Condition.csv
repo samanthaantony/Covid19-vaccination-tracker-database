@@ -1,0 +1,12 @@
+Condition,Id_num,Type_Of_Dose
+Asthma,20,1
+Chronic obstructive pulmonary disease ,21,1
+Cystic fibrosis,22,1
+Cancer,23,1
+Chronic Kidney disease,24,1
+Diabetes,25,1
+Stroke,26,2
+Asthma,27,2
+Chronic obstructive pulmonary disease ,28,2
+Cystic fibrosis,29,2
+Cancer,30,1

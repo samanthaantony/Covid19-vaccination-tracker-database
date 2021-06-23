@@ -1,0 +1,106 @@
+﻿Name,Age,Contact,Vac_Phase,Address,Date_Administered,Vac_Type,Date_Shipped,Adv_Effects,Id_Num,Occupation,Type_Of_Dose,ZipCode,County,Mname
+Person1,10,2539038127,1A,Address1,12/1/2019,Nucleic acid,1/23/2020,1,1,Healthcare-Tier1,1,42410,County1,Pfizer
+Person2,11,6753675678,1A,Address2,12/2/2019,Viral vector,1/24/2020,1,2,Healthcare-Tier2,2,26564,County2,Johnson and Johnson
+Person3,42,2190521119,1A,Address3,12/3/2019,Nucleic acid,1/25/2020,1,3,long-term-care-assisted-living-residents,2,86542,County3,Moderna
+Person4,50,7144591757,1A,Address4,12/4/2019,Whole virus,1/26/2020,1,4,long-term-care-nursing-home-residents,2,36570,County4,Covaxin
+Person5,62,8160933924,1B,Address5,12/5/2019,Protein subunit,1/27/2020,1,5,16-64 any medical condition,2,55433,County5,Novavax
+Person6,66,6110422076,1B,Address6,12/6/2019,Viral vector,1/28/2020,1,6,population over 65,2,70502,County6,AstraZeneca
+Person7,28,1105958360,1C,Address7,12/7/2019,Nucleic acid,1/23/2020,1,7,Education and child care personnel,2,87009,County7,Pfizer
+Person8,29,9052005937,2,Address8,12/8/2019,Viral vector,1/24/2020,1,8,people 16 years and older,2,79892,County8,Johnson and Johnson
+Person9,10,5783167648,1A,Address9,12/9/2019,Nucleic acid,1/25/2020,1,9,Healthcare-Tier1,2,39656,County9,Moderna
+Person10,12,9579046055,1A,Address10,12/10/2019,Whole virus,1/26/2020,1,10,Healthcare-Tier2,1,34588,County10,Covaxin
+Person11,50,4125929054,1A,Address11,12/11/2019,Protein subunit,1/27/2020,0,11,long-term-care-assisted-living-residents,1,41477,County11,Novavax
+Person12,50,6684310158,1A,Address12,12/12/2019,Viral vector,1/28/2020,0,12,long-term-care-nursing-home-residents,1,98955,County12,AstraZeneca
+Person13,62,4228573482,1B,Address13,12/13/2019,Nucleic acid,1/23/2020,0,13,16-64 any medical condition,1,86671,County13,Pfizer
+Person14,66,9728960570,1B,Address14,12/14/2019,Viral vector,1/24/2020,0,14,population over 65,1,63540,County14,Johnson and Johnson
+Person15,25,7576748866,1C,Address15,12/15/2019,Nucleic acid,1/25/2020,0,15,Education and child care personnel,1,32648,County15,Moderna
+Person16,18,9627974319,2,Address16,12/16/2019,Whole virus,1/26/2020,0,16,people 16 years and older,2,69408,County16,Covaxin
+Person17,5,1755034202,1A,Address17,12/17/2019,Protein subunit,1/27/2020,0,17,Healthcare-Tier1,2,17076,County17,Novavax
+Person18,11,7072394949,1A,Address18,12/18/2019,Viral vector,1/28/2020,0,18,Healthcare-Tier2,2,96999,County18,AstraZeneca
+Person19,42,3462609621,1A,Address19,12/19/2019,Nucleic acid,1/23/2020,0,19,long-term-care-assisted-living-residents,2,94737,County19,Pfizer
+Person20,50,9797557547,1A,Address20,12/20/2019,Viral vector,1/24/2020,0,20,long-term-care-nursing-home-residents,1,89418,County20,Johnson and Johnson
+Person21,62,8945358077,1B,Address21,12/21/2019,Nucleic acid,1/25/2020,0,21,16-64 any medical condition,1,52294,County21,Moderna
+Person22,69,5465742960,1B,Address22,12/22/2019,Whole virus,1/26/2020,0,22,population over 65,1,40608,County22,Covaxin
+Person23,25,5610689021,1C,Address23,12/23/2019,Protein subunit,1/27/2020,0,23,Education and child care personnel,1,42950,County23,Novavax
+Person24,34,9014647236,2,Address24,12/24/2019,Viral vector,1/28/2020,0,24,people 16 years and older,1,89093,County24,AstraZeneca
+Person25,14,3653852917,1A,Address25,12/25/2019,Nucleic acid,1/23/2020,0,25,Healthcare-Tier1,1,61342,County25,Pfizer
+Person26,14,4917451567,1A,Address26,12/26/2019,Viral vector,1/24/2020,0,26,Healthcare-Tier2,2,58364,County26,Johnson and Johnson
+Person27,42,4445284558,1A,Address27,12/27/2019,Nucleic acid,1/25/2020,0,27,long-term-care-assisted-living-residents,2,98091,County27,Moderna
+Person28,60,3109597723,1A,Address28,12/28/2019,Whole virus,1/26/2020,0,28,long-term-care-nursing-home-residents,2,89297,County28,Covaxin
+Person29,62,1477287147,1B,Address29,12/29/2019,Protein subunit,1/27/2020,0,29,16-64 any medical condition,2,40996,County29,Novavax
+Person30,66,6098808336,1B,Address30,12/30/2019,Viral vector,1/28/2020,0,30,population over 65,1,82631,County30,AstraZeneca
+Person31,24,1180050561,1C,Address31,12/31/2019,Nucleic acid,1/23/2020,0,31,Education and child care personnel,1,82496,County31,Pfizer
+Person32,55,1117671294,2,Address32,12/1/2019,Viral vector,1/24/2020,0,32,people 16 years and older,1,86379,County32,Johnson and Johnson
+Person33,12,8336875791,1A,Address33,12/1/2019,Nucleic acid,1/25/2020,0,33,Healthcare-Tier1,1,42410,County1,Moderna
+Person34,11,6188756354,1A,Address34,12/3/2019,Whole virus,1/26/2020,0,34,Healthcare-Tier2,1,26564,County2,Covaxin
+Person35,42,4511595394,1A,Address35,12/4/2019,Protein subunit,1/27/2020,0,35,long-term-care-assisted-living-residents,1,86542,County3,Novavax
+Person36,50,3726193177,1A,Address36,12/5/2019,Viral vector,1/28/2020,0,36,long-term-care-nursing-home-residents,2,36570,County4,AstraZeneca
+Person37,62,5682967196,1B,Address37,12/6/2019,Nucleic acid,1/23/2020,0,37,16-64 any medical condition,2,55433,County5,Pfizer
+Person38,66,1845958153,1B,Address38,12/7/2019,Viral vector,1/24/2020,0,38,population over 65,2,70502,County6,Johnson and Johnson
+Person39,28,3533385238,1C,Address39,12/8/2019,Nucleic acid,1/25/2020,0,39,Education and child care personnel,2,87009,County7,Moderna
+Person40,29,6498759644,2,Address40,12/9/2019,Whole virus,1/26/2020,0,40,people 16 years and older,1,79892,County8,Covaxin
+Person41,10,3822245072,1A,Address41,12/10/2019,Protein subunit,1/27/2020,0,41,Healthcare-Tier1,1,39656,County9,Novavax
+Person42,11,1327385319,1A,Address42,12/11/2019,Viral vector,1/28/2020,0,42,Healthcare-Tier2,1,34588,County10,AstraZeneca
+Person43,55,6115017773,1A,Address43,12/12/2019,Nucleic acid,1/23/2020,0,43,long-term-care-assisted-living-residents,1,41477,County11,Pfizer
+Person44,47,1350401607,1A,Address44,1/13/2020,Viral vector,1/24/2020,0,44,long-term-care-nursing-home-residents,1,98955,County12,Johnson and Johnson
+Person45,62,4311862507,1B,Address45,1/14/2020,Nucleic acid,1/25/2020,0,45,16-64 any medical condition,1,86671,County13,Moderna
+Person46,66,9224540299,1B,Address46,1/15/2020,Whole virus,1/26/2020,0,46,population over 65,2,63540,County14,Covaxin
+Person47,28,1162629119,1C,Address47,1/16/2020,Protein subunit,1/27/2020,0,47,Education and child care personnel,2,32648,County15,Novavax
+Person48,29,4989878080,2,Address48,1/17/2020,Viral vector,1/28/2020,0,48,people 16 years and older,2,69408,County16,AstraZeneca
+Person49,14,9692426263,1A,Address49,1/18/2020,Nucleic acid,1/23/2020,0,49,Healthcare-Tier1,2,17076,County17,Pfizer
+Person50,11,2170958354,1A,Address50,1/19/2020,Viral vector,1/24/2020,0,50,Healthcare-Tier2,1,96999,County18,Johnson and Johnson
+Person51,42,3304951866,1A,Address51,1/20/2020,Nucleic acid,1/25/2020,0,51,long-term-care-assisted-living-residents,1,94737,County19,Moderna
+Person52,57,6069319166,1A,Address52,1/21/2020,Whole virus,1/26/2020,0,52,long-term-care-nursing-home-residents,1,89418,County20,Covaxin
+Person53,62,7117645511,1B,Address53,1/22/2020,Protein subunit,1/27/2020,0,53,16-64 any medical condition,1,52294,County21,Novavax
+Person54,66,5448286591,1B,Address54,1/23/2020,Viral vector,1/28/2020,0,54,population over 65,1,40608,County22,AstraZeneca
+Person55,28,3429678273,1C,Address55,1/24/2020,Nucleic acid,1/23/2020,0,55,Education and child care personnel,1,42950,County23,Pfizer
+Person56,29,6949565292,2,Address56,1/25/2020,Viral vector,1/24/2020,0,56,people 16 years and older,2,89093,County24,Johnson and Johnson
+Person57,12,4686520907,1A,Address57,1/26/2020,Nucleic acid,1/25/2020,0,57,Healthcare-Tier1,2,61342,County25,Moderna
+Person58,11,6228079604,1A,Address58,1/27/2020,Whole virus,1/26/2020,0,58,Healthcare-Tier2,2,58364,County26,Covaxin
+Person59,42,2649431299,1A,Address59,1/28/2020,Protein subunit,1/27/2020,0,59,long-term-care-assisted-living-residents,2,98091,County27,Novavax
+Person60,60,1792331663,1A,Address60,1/29/2020,Viral vector,1/28/2020,0,60,long-term-care-nursing-home-residents,1,89297,County28,AstraZeneca
+Person61,62,7937452572,1B,Address61,1/30/2020,Nucleic acid,1/23/2020,0,61,16-64 any medical condition,1,40996,County29,Pfizer
+Person62,66,2254085946,1B,Address62,1/31/2020,Viral vector,1/24/2020,0,62,population over 65,1,82631,County30,Johnson and Johnson
+Person63,28,6119638994,1C,Address63,2/1/2020,Nucleic acid,1/25/2020,0,63,Education and child care personnel,1,82496,County31,Moderna
+Person64,29,4470351865,2,Address64,2/2/2020,Whole virus,1/26/2020,0,64,people 16 years and older,1,86379,County32,Covaxin
+Person65,13,8138149936,1A,Address65,12/1/2019,Protein subunit,1/27/2020,0,65,Healthcare-Tier1,1,42410,County1,Novavax
+Person66,11,9091517957,1A,Address66,2/4/2020,Viral vector,1/28/2020,0,66,Healthcare-Tier2,2,26564,County2,AstraZeneca
+Person67,42,3426472073,1A,Address67,2/5/2020,Nucleic acid,1/23/2020,0,67,long-term-care-assisted-living-residents,2,86542,County3,Pfizer
+Person68,50,3315572866,1A,Address68,2/6/2020,Viral vector,1/24/2020,0,68,long-term-care-nursing-home-residents,2,36570,County4,Johnson and Johnson
+Person69,62,9745011758,1B,Address69,2/7/2020,Nucleic acid,1/25/2020,0,69,16-64 any medical condition,2,55433,County5,Moderna
+Person70,66,5578476427,1B,Address70,2/8/2020,Whole virus,1/26/2020,0,70,population over 65,1,70502,County6,Covaxin
+Person71,28,5763344531,1C,Address71,2/9/2020,Protein subunit,1/27/2020,0,71,Education and child care personnel,1,87009,County7,Novavax
+Person72,29,8871928018,2,Address72,2/10/2020,Viral vector,1/28/2020,0,72,people 16 years and older,1,79892,County8,AstraZeneca
+Person73,14,3796184568,1A,Address73,2/11/2020,Nucleic acid,1/23/2020,0,73,Healthcare-Tier1,1,39656,County9,Pfizer
+Person74,11,3766587344,1A,Address74,2/12/2020,Viral vector,1/24/2020,0,74,Healthcare-Tier2,1,34588,County10,Johnson and Johnson
+Person75,42,5614125756,1A,Address75,2/13/2020,Nucleic acid,1/25/2020,0,75,long-term-care-assisted-living-residents,1,41477,County11,Moderna
+Person76,57,9398899822,1A,Address76,2/14/2020,Whole virus,1/26/2020,0,76,long-term-care-nursing-home-residents,2,98955,County12,Covaxin
+Person77,62,9708589402,1B,Address77,2/15/2020,Protein subunit,1/27/2020,0,77,16-64 any medical condition,2,86671,County13,Novavax
+Person78,66,4214065879,1B,Address78,2/16/2020,Viral vector,1/28/2020,0,78,population over 65,2,63540,County14,AstraZeneca
+Person79,28,2324127871,1C,Address79,2/17/2020,Nucleic acid,1/23/2020,0,79,Education and child care personnel,2,32648,County15,Pfizer
+Person80,29,6693983129,2,Address80,2/18/2020,Viral vector,1/24/2020,0,80,people 16 years and older,1,69408,County16,Johnson and Johnson
+Person81,10,8694474118,1A,Address81,2/19/2020,Nucleic acid,1/25/2020,0,81,Healthcare-Tier1,1,17076,County17,Moderna
+Person82,11,9566702789,1A,Address82,2/20/2020,Whole virus,1/26/2020,0,82,Healthcare-Tier2,1,96999,County18,Covaxin
+Person83,42,9951302718,1A,Address83,2/21/2020,Protein subunit,1/27/2020,0,83,long-term-care-assisted-living-residents,1,94737,County19,Novavax
+Person84,50,5949879621,1A,Address84,2/22/2020,Viral vector,1/28/2020,0,84,long-term-care-nursing-home-residents,1,89418,County20,AstraZeneca
+Person85,62,4762404657,1B,Address85,2/23/2020,Nucleic acid,1/23/2020,0,85,16-64 any medical condition,1,52294,County21,Pfizer
+Person86,66,9915638560,1B,Address86,2/24/2020,Viral vector,1/24/2020,0,86,population over 65,2,40608,County22,Johnson and Johnson
+Person87,28,9457730175,1C,Address87,2/25/2020,Nucleic acid,1/25/2020,0,87,Education and child care personnel,2,42950,County23,Moderna
+Person88,29,1546435409,2,Address88,2/26/2020,Whole virus,1/26/2020,0,88,people 16 years and older,2,89093,County24,Covaxin
+Person89,14,6423013745,1A,Address89,2/27/2020,Protein subunit,1/27/2020,0,89,Healthcare-Tier1,2,61342,County25,Novavax
+Person90,11,7744430609,1A,Address90,2/28/2020,Viral vector,1/28/2020,0,90,Healthcare-Tier2,1,58364,County26,AstraZeneca
+Person91,42,7685247173,1A,Address91,2/29/2020,Nucleic acid,1/23/2020,0,91,long-term-care-assisted-living-residents,1,98091,County27,Pfizer
+Person92,57,7068141407,1A,Address92,3/1/2020,Viral vector,1/24/2020,0,92,long-term-care-nursing-home-residents,1,89297,County28,Johnson and Johnson
+Person93,62,7021373223,1B,Address93,3/2/2020,Nucleic acid,1/25/2020,0,93,16-64 any medical condition,1,40996,County29,Moderna
+Person94,66,4947416154,1B,Address94,3/3/2020,Whole virus,1/26/2020,0,94,population over 65,1,82631,County30,Covaxin
+Person95,28,3917389715,1C,Address95,3/4/2020,Protein subunit,1/27/2020,0,95,Education and child care personnel,1,82496,County31,Novavax
+Person96,29,9590060044,2,Address96,3/5/2020,Viral vector,1/28/2020,0,96,people 16 years and older,2,86379,County32,AstraZeneca
+Person97,10,8313722811,1A,Address97,12/1/2019,Nucleic acid,1/23/2020,0,97,Healthcare-Tier1,2,42410,County1,Pfizer
+Person98,11,6871916097,1A,Address98,3/7/2020,Viral vector,1/24/2020,0,98,Healthcare-Tier2,2,26564,County2,Johnson and Johnson
+Person99,62,3675038141,1A,Address99,3/8/2020,Nucleic acid,1/25/2020,0,99,long-term-care-assisted-living-residents,2,86542,County3,Moderna
+Person100,55,3549110462,1A,Address100,3/9/2020,Whole virus,1/26/2020,0,100,long-term-care-nursing-home-residents,1,36570,County4,Covaxin
+Person101,10,4539038127,1A,Address101,12/1/2019,Nucleic acid,1/23/2020,1,101,Healthcare-Tier1,1,42410,County1,Pfizer
+Person102,11,4653675678,1A,Address102,12/1/2019,Viral vector,1/24/2020,1,102,Healthcare-Tier2,2,26564,County2,Johnson and Johnson
+Person103,42,2990521119,1A,Address103,12/1/2019,Nucleic acid,1/25/2020,1,103,long-term-care-assisted-living-residents,2,86542,County3,Moderna
+Person104,50,7944591757,1A,Address104,12/1/2019,Whole virus,1/26/2020,1,104,long-term-care-nursing-home-residents,2,36570,County4,Covaxin
+Person105,62,8060933924,1B,Address105,12/1/2019,Protein subunit,1/27/2020,1,105,16-64 any medical condition,2,55433,County5,Novavax

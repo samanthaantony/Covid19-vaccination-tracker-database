@@ -1,0 +1,43 @@
+delimiter //
+DROP TRIGGER IF EXISTS notify_federal//
+CREATE TRIGGER `notify_federal` BEFORE INSERT ON covid19.patient
+FOR EACH ROW 
+    BEGIN
+		DECLARE errorMessage VARCHAR(255); 
+                DECLARE errorMessage2 VARCHAR(255); 
+        SET errorMessage = CONCAT('Error: Notify Federal');
+        SET errorMessage2 = CONCAT('Error: Entry Not Valid');
+        IF NEW.Occupation = 'long-term-care-assisted-living-residents' AND (NEW.Vac_Phase <> '1A' OR NEW.Age < 40) THEN
+            SIGNAL SQLSTATE '45000'
+				SET MESSAGE_TEXT = errorMessage;
+        ELSEIF NEW.Occupation = 'long-term-care-nursing-home-residents' AND (NEW.Vac_Phase <> '1A' OR NEW.Age < 40) THEN
+            SIGNAL SQLSTATE '45000'
+				SET MESSAGE_TEXT = errorMessage;
+        ELSEIF NEW.Occupation = 'Healthcare-Tier1' AND (NEW.Vac_Phase <> '1A' OR NEW.Age NOT BETWEEN 1 AND 16) THEN
+            SIGNAL SQLSTATE '45000'
+				SET MESSAGE_TEXT = errorMessage;
+        ELSEIF NEW.Occupation = 'Healthcare-Tier2' AND (NEW.Vac_Phase <> '1A' OR NEW.Age NOT BETWEEN 1 AND 16) THEN
+            SIGNAL SQLSTATE '45000'
+				SET MESSAGE_TEXT = errorMessage;
+	ELSEIF NEW.Occupation = '16-64 any medical condition' AND (NEW.Vac_Phase <> '1B' OR (NEW.Age<= 15 OR NEW.Age>= 65)) THEN
+            SIGNAL SQLSTATE '45000'
+				SET MESSAGE_TEXT = errorMessage;
+	ELSEIF NEW.Occupation = 'population over 65' AND (NEW.Vac_Phase <> '1B' OR NEW.Age < 65) THEN
+            SIGNAL SQLSTATE '45000'
+				SET MESSAGE_TEXT = errorMessage;
+	ELSEIF NEW.Occupation = 'Education and child care personnel' AND (NEW.Vac_Phase <> '1C' OR (NEW.Age <=19 OR NEW.Age>= 31)) THEN
+            SIGNAL SQLSTATE '45000'
+				SET MESSAGE_TEXT = errorMessage;
+	ELSEIF NEW.Occupation = 'people 16 years and older' AND (NEW.Vac_Phase <> '2' OR NEW.Age < 16) THEN
+            SIGNAL SQLSTATE '45000'
+				SET MESSAGE_TEXT = errorMessage;
+       ELSEIF NEW.Occupation <> 'people 16 years and older' AND NEW.Occupation <> 'long-term-care-assisted-living-residents' AND NEW.Occupation <> 'long-term-care-nursing-home-residents' AND
+          NEW.Occupation <> 'Healthcare-Tier1' AND NEW.Occupation <> 'Healthcare-Tier2' AND NEW.Occupation <> 'Population over 65' AND NEW.Occupation <> '16-64 any medical condition' AND
+          NEW.Occupation <> 'Education and child care personnel' THEN
+            SIGNAL SQLSTATE '45000'
+				SET MESSAGE_TEXT = errorMessage2;
+        
+        END IF;
+
+    END;//
+delimiter ;

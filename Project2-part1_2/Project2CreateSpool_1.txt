@@ -1,0 +1,165 @@
+mysql> show tables;
+Empty set (0.01 sec)
+
+mysql> source CommandsProject2.txt
+Query OK, 0 rows affected (0.04 sec)
+
+Query OK, 0 rows affected (0.09 sec)
+
+Query OK, 0 rows affected (0.18 sec)
+
+Query OK, 0 rows affected (0.06 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.07 sec)
+
+Query OK, 0 rows affected (0.04 sec)
+
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.13 sec)
+
+Query OK, 0 rows affected (0.08 sec)
+
++-------+-------------+------+-----+---------+-------+
+| Field | Type        | Null | Key | Default | Extra |
++-------+-------------+------+-----+---------+-------+
+| Fname | varchar(50) | NO   | PRI | NULL    |       |
++-------+-------------+------+-----+---------+-------+
+1 row in set (0.00 sec)
+
++------------------+-------------+------+-----+---------+-------+
+| Field            | Type        | Null | Key | Default | Extra |
++------------------+-------------+------+-----+---------+-------+
+| Mname            | varchar(50) | NO   | PRI | NULL    |       |
+| Vac_Type         | varchar(50) | NO   | PRI | NULL    |       |
+| Proc_count       | int         | NO   |     | NULL    |       |
+| NumDoses_shipped | int         | NO   |     | NULL    |       |
+| Fname            | varchar(50) | YES  | MUL | NULL    |       |
+| Date_shipped     | date        | NO   | PRI | NULL    |       |
++------------------+-------------+------+-----+---------+-------+
+6 rows in set (0.01 sec)
+
++-------------------+---------------+------+-----+---------+-------+
+| Field             | Type          | Null | Key | Default | Extra |
++-------------------+---------------+------+-----+---------+-------+
+| Vac_Type          | varchar(50)   | YES  | MUL | NULL    |       |
+| Name              | varchar(50)   | YES  |     | NULL    |       |
+| Age               | int           | YES  |     | NULL    |       |
+| Contact           | decimal(10,0) | YES  |     | NULL    |       |
+| Vac_Phase         | varchar(3)    | YES  |     | NULL    |       |
+| Address           | varchar(50)   | YES  |     | NULL    |       |
+| Id_num            | int           | NO   | PRI | NULL    |       |
+| Date_administered | date          | YES  |     | NULL    |       |
+| Date_shipped      | date          | YES  |     | NULL    |       |
+| Mname             | varchar(50)   | YES  |     | NULL    |       |
+| Type_of_Dose      | int           | NO   | PRI | NULL    |       |
+| Occupation        | varchar(50)   | YES  |     | NULL    |       |
+| Adv_Effects       | tinyint(1)    | YES  |     | NULL    |       |
+| Zipcode           | decimal(5,0)  | YES  |     | NULL    |       |
+| County            | varchar(50)   | YES  | MUL | NULL    |       |
++-------------------+---------------+------+-----+---------+-------+
+15 rows in set (0.00 sec)
+
++--------------+-------------+------+-----+---------+-------+
+| Field        | Type        | Null | Key | Default | Extra |
++--------------+-------------+------+-----+---------+-------+
+| Allergy      | varchar(50) | NO   | PRI | NULL    |       |
+| Id_num       | int         | NO   | PRI | NULL    |       |
+| Type_of_Dose | int         | NO   | PRI | NULL    |       |
++--------------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
++--------------+-------------+------+-----+---------+-------+
+| Field        | Type        | Null | Key | Default | Extra |
++--------------+-------------+------+-----+---------+-------+
+| cond         | varchar(50) | NO   | PRI | NULL    |       |
+| Id_num       | int         | NO   | PRI | NULL    |       |
+| Type_of_Dose | int         | NO   | PRI | NULL    |       |
++--------------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| Sname       | varchar(50) | NO   | PRI | NULL    |       |
+| Spopulation | int         | YES  |     | NULL    |       |
+| No_of_doses | int         | YES  |     | NULL    |       |
+| Fname       | varchar(50) | YES  | MUL | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
++-------------+--------------+------+-----+---------+-------+
+| Field       | Type         | Null | Key | Default | Extra |
++-------------+--------------+------+-----+---------+-------+
+| County      | varchar(50)  | NO   | PRI | NULL    |       |
+| Lpopulation | int          | YES  |     | NULL    |       |
+| Sname       | varchar(50)  | YES  | MUL | NULL    |       |
+| Zipcode     | decimal(5,0) | NO   | PRI | NULL    |       |
++-------------+--------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
++----------+--------------+------+-----+---------+-------+
+| Field    | Type         | Null | Key | Default | Extra |
++----------+--------------+------+-----+---------+-------+
+| Location | varchar(50)  | YES  |     | NULL    |       |
+| County   | varchar(50)  | NO   | PRI | NULL    |       |
+| Zipcode  | decimal(5,0) | NO   | PRI | NULL    |       |
++----------+--------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
++---------+--------------+------+-----+---------+-------+
+| Field   | Type         | Null | Key | Default | Extra |
++---------+--------------+------+-----+---------+-------+
+| Name    | varchar(50)  | YES  |     | NULL    |       |
+| Type    | varchar(50)  | YES  |     | NULL    |       |
+| County  | varchar(50)  | NO   | PRI | NULL    |       |
+| Zipcode | decimal(5,0) | NO   | PRI | NULL    |       |
++---------+--------------+------+-----+---------+-------+
+4 rows in set (0.01 sec)
+
++---------+--------------+------+-----+---------+-------+
+| Field   | Type         | Null | Key | Default | Extra |
++---------+--------------+------+-----+---------+-------+
+| Name    | varchar(50)  | YES  |     | NULL    |       |
+| Type    | varchar(50)  | YES  |     | NULL    |       |
+| County  | varchar(50)  | NO   | PRI | NULL    |       |
+| Zipcode | decimal(5,0) | NO   | PRI | NULL    |       |
++---------+--------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
++---------------+--------------+------+-----+---------+-------+
+| Field         | Type         | Null | Key | Default | Extra |
++---------------+--------------+------+-----+---------+-------+
+| No_of_doses   | int          | YES  |     | NULL    |       |
+| Date_received | date         | YES  |     | NULL    |       |
+| Vac_type      | varchar(50)  | NO   | PRI | NULL    |       |
+| Date_shipped  | date         | NO   | PRI | NULL    |       |
+| Mname         | varchar(50)  | NO   | PRI | NULL    |       |
+| County        | varchar(50)  | NO   | PRI | NULL    |       |
+| Zipcode       | decimal(5,0) | NO   | PRI | NULL    |       |
++---------------+--------------+------+-----+---------+-------+
+7 rows in set (0.00 sec)
+
+mysql> show tables;
++---------------------+
+| Tables_in_jxv3242   |
++---------------------+
+| ALLERGIES           |
+| FEDERAL             |
+| HAVE                |
+| HEALTH_CARE_CENTERS |
+| LABS_AND_PHARMACIES |
+| LOCAL_BODIES        |
+| MED_Condition       |
+| PATIENT             |
+| STATES              |
+| VACCINATION_CAMPS   |
+| VACCINE             |
++---------------------+
+11 rows in set (0.01 sec)
+
+mysql> notee

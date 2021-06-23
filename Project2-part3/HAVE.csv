@@ -1,0 +1,33 @@
+No_Of_Doses,Date_Received,Vac_Type,Date_Shipped,Mname,County,ZipCode
+250,2/2/2020,Nucleic acid,1/23/2020,Pfizer,County1,42410
+150,3/2/2020,Viral vector,1/24/2020,Johnson and Johnson,County2,26564
+300,4/2/2020,Nucleic acid,1/25/2020,Moderna,County3,86542
+170,5/2/2020,Whole virus,1/26/2020,Covaxin,County4,36570
+200,6/2/2020,Protein subunit,1/27/2020,Novavax,County5,55433
+100,7/2/2020,Viral vector,1/28/2020,AstraZeneca,County6,70502
+250,2/2/2020,Nucleic acid,1/23/2020,Pfizer,County7,87009
+150,3/2/2020,Viral vector,1/24/2020,Johnson and Johnson,County8,79892
+300,4/2/2020,Nucleic acid,1/25/2020,Moderna,County9,39656
+170,5/2/2020,Whole virus,1/26/2020,Covaxin,County10,34588
+200,6/2/2020,Protein subunit,1/27/2020,Novavax,County11,41477
+100,7/2/2020,Viral vector,1/28/2020,AstraZeneca,County12,98955
+250,2/2/2020,Nucleic acid,1/23/2020,Pfizer,County13,86671
+150,3/2/2020,Viral vector,1/24/2020,Johnson and Johnson,County14,63540
+300,4/2/2020,Nucleic acid,1/25/2020,Moderna,County15,32648
+170,5/2/2020,Whole virus,1/26/2020,Covaxin,County16,69408
+200,6/2/2020,Protein subunit,1/27/2020,Novavax,County17,17076
+100,7/2/2020,Viral vector,1/28/2020,AstraZeneca,County18,96999
+250,2/2/2020,Nucleic acid,1/23/2020,Pfizer,County19,94737
+150,3/2/2020,Viral vector,1/24/2020,Johnson and Johnson,County20,89418
+300,4/2/2020,Nucleic acid,1/25/2020,Moderna,County21,52294
+170,5/2/2020,Whole virus,1/26/2020,Covaxin,County22,40608
+200,6/2/2020,Protein subunit,1/27/2020,Novavax,County23,42950
+100,7/2/2020,Viral vector,1/28/2020,AstraZeneca,County24,89093
+250,2/2/2020,Nucleic acid,1/23/2020,Pfizer,County25,61342
+150,3/2/2020,Viral vector,1/24/2020,Johnson and Johnson,County26,58364
+300,4/2/2020,Nucleic acid,1/25/2020,Moderna,County27,98091
+170,5/2/2020,Whole virus,1/26/2020,Covaxin,County28,89297
+200,6/2/2020,Protein subunit,1/27/2020,Novavax,County29,40996
+100,7/2/2020,Viral vector,1/28/2020,AstraZeneca,County30,82631
+250,2/2/2020,Nucleic acid,1/23/2020,Pfizer,County31,82496
+150,3/2/2020,Viral vector,1/24/2020,Johnson and Johnson,County32,86379

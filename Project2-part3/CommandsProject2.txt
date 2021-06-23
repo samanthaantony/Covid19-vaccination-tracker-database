@@ -1,0 +1,149 @@
+create table FEDERAL( 
+Fname varchar(50), 
+primary key(Fname) 
+);
+
+
+create table VACCINE( 
+Mname varchar(50), 
+Vac_Type varchar(50), 
+Proc_count int NOT NULL, 
+NumDoses_shipped int NOT NULL, 
+Fname varchar(50), 
+Date_shipped date, 
+primary key(Vac_Type,Date_shipped,Mname), 
+foreign key(Fname) references FEDERAL(Fname) 
+);
+
+
+create table STATES( 
+Sname varchar(50), 
+Spopulation int,
+No_of_doses int, 
+Fname varchar(50), 
+primary key (Sname), 
+foreign key (Fname) references FEDERAL(Fname) 
+);
+
+
+create table LOCAL_BODIES( 
+County varchar(50), 
+Lpopulation int, 
+Sname varchar(50), 
+Zipcode decimal(5,0),
+primary key (County,Zipcode), 
+foreign key (Sname) references STATES(Sname)
+);
+
+
+create table PATIENT( 
+Vac_Type varchar(50), 
+Name varchar(50), 
+Age int, 
+Contact decimal(10,0), 
+Vac_Phase varchar(3), 
+Address varchar(50), 
+Id_num int, 
+Date_administered date,
+Date_shipped date,
+Mname varchar(50), 
+Type_of_Dose int, 
+Occupation varchar(50), 
+Adv_Effects Boolean,
+Zipcode decimal(5,0),
+County varchar(50), 
+primary key(Id_num,Type_of_Dose), 
+foreign key(Vac_Type,Date_shipped,Mname) references VACCINE(Vac_Type,Date_shipped,Mname), 
+foreign key(County,Zipcode) references LOCAL_BODIES(County,Zipcode)
+);
+
+
+create table ALLERGIES( 
+Allergy varchar(50), 
+Id_num int,
+Type_of_Dose int, 
+primary key(Allergy,Id_num,Type_of_Dose), 
+foreign key(Id_num,Type_of_Dose) references PATIENT(Id_num,Type_of_Dose) 
+);
+
+
+create table MED_Condition( 
+cond varchar(50), 
+Id_num int, 
+Type_of_Dose int,
+primary key(cond,Id_num,Type_of_Dose), 
+foreign key(Id_num,Type_of_Dose) references PATIENT(Id_num,Type_of_Dose) 
+);
+
+
+
+create table VACCINATION_CAMPS( 
+Location varchar(50), 
+County varchar(50), 
+Zipcode decimal(5,0),
+primary key (County,Zipcode), 
+foreign key(County,Zipcode) references LOCAL_BODIES(County,Zipcode)
+);
+
+
+create table HEALTH_CARE_CENTERS( 
+Name varchar(50),
+Type varchar(50), 
+County varchar(50), 
+Zipcode decimal(5,0),
+primary key (County,Zipcode), 
+foreign key(County,Zipcode) references LOCAL_BODIES(County,Zipcode)
+);
+
+
+create table LABS_AND_PHARMACIES( 
+Name varchar(50),
+Type varchar(50), 
+County varchar(50), 
+Zipcode decimal(5,0),
+primary key (County,Zipcode), 
+foreign key(County,Zipcode) references LOCAL_BODIES(County,Zipcode)
+);
+
+
+create table HAVE(
+No_of_doses int,
+Date_received date,
+Vac_type varchar(50),
+Date_shipped date,
+Mname varchar(50),
+County varchar(50),
+Zipcode decimal(5,0),
+primary key(Vac_Type,Date_shipped,Mname,County,Zipcode),
+foreign key(Vac_Type,Date_shipped,Mname) references VACCINE(Vac_Type,Date_shipped,Mname),
+foreign key(County,Zipcode) references LOCAL_BODIES(County,Zipcode)
+);
+
+
+desc FEDERAL;
+
+desc VACCINE;
+
+desc PATIENT;
+
+desc ALLERGIES;
+
+desc MED_Condition;
+
+desc STATES;
+
+desc LOCAL_BODIES;
+
+desc VACCINATION_CAMPS;
+
+desc HEALTH_CARE_CENTERS;
+
+desc LABS_AND_PHARMACIES;
+
+desc HAVE;
+
+
+
+
+
+

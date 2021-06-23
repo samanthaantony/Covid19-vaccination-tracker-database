@@ -1,0 +1,7 @@
+Mname,Vac_Type,Proc_count,NumDoses_shipped,Fname,Date_shipped
+Pfizer,Nucleic acid,100,70,CDC,1/23/2020
+Johnson and Johnson,Viral vector,200,170,CDC,1/24/2020
+Moderna,Nucleic acid,300,270,CDC,1/25/2020
+Covaxin,Whole virus,100,70,CDC,1/26/2020
+Novavax,Protein subunit,200,170,CDC,1/27/2020
+AstraZeneca,Viral vector,300,270,CDC,1/28/2020
